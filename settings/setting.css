@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000505;
+    color: white;
+    position: relative;
+    min-height: 150vh;
+}
+section{
+    padding-bottom: 5rem;
+}
+
+img#MoneyHeistImg{
+   width: 100%;
+    height: 100%;
+}
+
+div#MoneyHeist{
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+
+#nadpis{
+    background-color: #7B070B;
+    color: black;
+    padding: 0 1%;
+    margin-left: 1%;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 6vw;
+}
+
+
+
+div#MoneyHeist article{
+
+    text-align: left;
+    visibility: hidden;
+    width: 20%;
+    height: auto;
+    border: 5px solid #7B070B;
+    border-radius: 20px;
+    background-color:  #000505;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+
+
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+h2{
+    margin: 3%;
+    font-size: 2vw;
+
+}
+
+
+.peniaze{
+    display: block;
+    width: 70%;
+    height: 5%;
+    margin: auto;
+}
+
+div#MoneyHeist img.maska:hover + article{
+    visibility: visible;
+    opacity: 1;
+}
+
+div#MoneyHeist img.maska:hover{
+    opacity: 0;
+}
+
+
+
+img.maska{
+    opacity: 1;
+    transition: opacity 1s;
+    display: block;
+    width: 6%;
+    height: 12%;
+    position: absolute;
+}
+
+img#Bogota
+{
+
+    top: 5%;
+    left: 10%;
+}
+
+article#BogotaArticle{
+    top: 17%;
+    left: 13%;
+}
+
+img#Denver
+{
+
+    top: 10.5%;
+    left: 23.5%;
+
+}
+
+article#DenverArticle{
+    top: 23%;
+    left: 27%;
+}
+
+img#Palermo
+{
+
+    top: 10%;
+    left: 35%;
+}
+
+article#PalermoArticle{
+    top: 22%;
+    left: 38%;
+}
+img#Profesor
+{
+
+    top: 8%;
+    right: 46%;
+}
+article#ProfesorArticle{
+    top: 20%;
+    right: 25%;
+}
+
+img#Tokyo
+{
+
+    top: 13%;
+    right: 35.5%;
+}
+
+article#TokyoArticle{
+    top: 24%;
+    right: 39%;
+}
+img#Lisbon
+{
+
+    top: 13%;
+    right: 21%;
+}
+
+article#LisbonArticle{
+    top: 24%;
+    right: 26%;
+}
+img#Helsinki
+{
+    top: 5.5%;
+    right: 9.8%;
+}
+
+article#HelsinkiArticle{
+    top: 18%;
+    right: 13%;
+}
+
+img#Marseille
+{
+    top: 47%;
+    left: 10.5%;
+}
+
+article#MarseilleArticle{
+    top: 57%;
+    left: 15.5%;
+}
+
+img#Stockholm
+ {
+
+     top: 43%;
+     left: 29%;
+ }
+
+article#StockholmArticle{
+    top: 53%;
+    left: 34%;
+}
+
+img#Bernil
+  {
+
+    top: 45.5%;
+    right: 49.5%;
+  }
+
+article#BernilArticle{
+    top: 57%;
+    left: 49%;
+}
+
+img#Rio
+   {
+
+    top: 47%;
+    right: 31%;
+   }
+
+article#RioArticle{
+    top: 57%;
+    right: 36%;
+}
+
+img#Nairobi
+    {
+
+    top: 44%;
+    right: 18%;
+    }
+
+article#NairobiArticle{
+    top: 53%;
+    right: 23%;
+}
+
+li{
+    margin-bottom: 3%;
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2vw;
+
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom:0;
+    padding-top: 10px;
+    border-top-color: #7B070B;
+    border-top: 3px solid;
+}
+footer:hover
+{
+    background: #7B070B;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+
+
